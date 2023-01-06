@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Webpage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url("https://cf-images.us-east-1.prod.boltdns.net/v1/static/3281700261001/d5af8031-2862-4247-a83b-17a10ba459fe/daab5b96-df69-481c-ad06-f54b1d7d3449/1920x1080/match/image.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #cccccc;
+  color:black;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: white;
+  color:white;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: rgb(211, 211, 211);
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.image.png{
+  background-color: rgba(170, 170, 170, 0.196);
+  width: 100%;
+  padding: 20px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+  <div class="header">
+    <h1>Traveling is Love</h1> 
+    <p>A webpage created by Sonalika.</p> 
+  </div>
+
+<div class="navbar">
+  <a href="https://www.instagram.com/forevervacationtravel/">Instagram</a>
+  <a href="https://www.facebook.com/ForeverVacation/">Facebook</a>
+  <a href="https://www.pinterest.com/forevervacationbali/">Pinterest</a>
+  <a href="https://forevervacation.com/the-vacationer/category/destinations" class="right">Destinations</a>
+</div>
+  <iframe width="1270" height="540" src="https://www.youtube.com/embed/Bx0ym1GsBKg" title="17 Reasons Travel Is Good For You" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <div class="main">
+    <div>
+    <style>
+      h2 {text-align: center;}
+      p {text-align: center;}
+      div {text-align: center;}
+    </style>
+    <h2>Traveling</h2>
+    <img src="data:image/jpeg;base64,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" style="height:200px;">
+    <p>Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip. Travel can also include relatively short stays between successive movements, as in the case of tourism.</p>
+    <p>Reasons for traveling include recreation, holidays, rejuvenation, tourism or vacationing, research travel, the gathering of information, visiting people, volunteer travel for charity, migration to begin life somewhere else, religious pilgrimages and mission trips, business travel, trade, commuting, and other reasons, such as to obtain health care or waging or fleeing war or for the enjoyment of traveling. Travelers may use human-powered transport such as walking or bicycling; or vehicles, such as public transport, automobiles, trains, ferries, boats, cruise ships and airplanes.</p>
+    <br>
+    <h2>Understanding of Other Cultures</h2>
+    <img src="https://storage.googleapis.com/fvallimages/uploads/media/images/uploaded_images/1586866961.jpg" style="height:200px;">
+    <p>The world is full of many different cultures and ways of life. If you never experience anything outside of your own way of life, you'll never understand how differently other people can live . Developing empathy and understanding of other cultures is part of being smarter. </p>
+    <p>I truly believe that there is no one right way to live and that each culture has something unique to offer and there is so much that we can learn from each other. Traveling is bound to open your mind and broaden your horizons, youll learn new things and maybe even start questioning things you never even thought about before. For inspiration and stories about some amazing cultures check out 'No Reservations' by Anthony Bourdain. </p>
+    <br>
+    <h2>Workout to Brain</h2>
+    <img src="https://storage.googleapis.com/fvallimages/uploads/media/images/uploaded_images/1586866902.png" style="height:200px;">
+    <p>Not only in terms of languages, but even just how you think when planning a trip away will help to exercise your brain. Planning and organizing the trip will force you to think differently and you might run into some challenges that will require you to be resourceful. All of this will help you to develop a new set of skills that will definitely benefit you in the future! If you’re going abroad, why not try to learn a bit of the local language before you go? It has been shown that learning a new language can improve your brain capacity - plus it will be really useful if you can understand the locals, even just a little bit! Check out duolingo to get you started. </p>
+    <br>
+    <h2>Happines</h2>
+    <img src="https://www.success.com/wp-content/uploads/2016/09/therealreasontravelingmakesyouhappy.jpg" style="height:200px;">
+    <p>Travel seems to have become a big aspiration for a lot of people. More and more, it seems that people are always looking forward to that next trip, saving, planning and booking time off work. It also seems to have become increasingly popular to organize trips away for family, friends and partners instead of giving Christmas and birthday presents. So why so much emphasis on travel? Many people claim they don't have enough time or money to travel - but there is always a way to get around this, you just have to do it! And it will be so worth it.</p>  
+    <br>
+    <h2>Mental Peace</h2>
+    <img src="https://storage.googleapis.com/fvallimages/uploads/blog/why-travelling-is-good-for-your-soul-the-vacationer-by-forevervacation-4857.jpg" style="height:200px;">
+    <h2>      </h2>
+    <audio controls>
+      <source src="Bird-Bath.mp3">
+    </audio>
+    <br>
+    <p>Why do people love it so much? And should we all aspire to travel more? The short answer is YES. In my opinion, travel is one of the best things you can spend your hard-earned money on. There are so many benefits to traveling, it changes you both physically and mentally. We can all get a little too caught up in our daily lives. Work tends to take over, and you can forget to take some time out for yourself. You can forget to do things that you really want to do when every day feels the same and you’ve got your boss breathing down your neck or deadlines you need to meet. </p>
+    <br>
+    <h2>Create amazing memories </h2>
+    <img src="https://storage.googleapis.com/fvallimages/uploads/media/images/uploaded_images/1586867243.jpg" style="height:200px;">
+    <p>I really believe that experiences are worth so much more than material things. When you travel, you will create memories that will last a lifetime and stories that you might even tell your grandchildren! Some of my favorite and most vivid memories are from trips I've taken. When you're traveling even the smallest things can have a big effect on you. No matter how insignificant it may seem, the fact that you've had an experience abroad, something that was out of the ordinary, creates a memory that you will remember for a long time.
+      And if you take a trip with someone else - a partner, a friend, your family - you'll be making memories together. This is such an amazing experience to have together and it is bound to bring you closer. </p>
+    <br>
+    <h2>It Allows You to Try Amazing Food </h2>
+    <img src="https://i.insider.com/5d41c0e636e03c1aca2f7297?width=600&format=jpeg&auto=webp" style="height:200px;">
+    <p>I've said it before and I'll say it again - food is one of the best parts of traveling. Discovering new and exciting dishes is one of my favorite things to do when I go away. Be sure to try the local cuisine and don't just stick to what you know.
+      You might even discover your new favorite thing! Food often reflects the culture and history of a place, so it's also a great way to get to the heart of the place you are visiting. And it's delicious! Check out our foodie tours in Bangkok, Ho Chi Minh and Bali. </p>
+    <br>
+    <h2>You'll meet people you never would've met if you'd stayed at home </h2>
+    <img src="https://storage.googleapis.com/fvallimages/uploads/media/images/uploaded_images/1586867198.jpg" style="height:200px;">
+    <p>Some of my best friends are people that I met when I was traveling. It's amazing to think that if I hadn't taken certain trips, I never would have met them as they're now such big parts of my life! 
+      When you're immersed in your daily life, it can be easy to just see the same people every day - and I'm sure they're great people! But meeting new people that you never would have come across if you'd stayed at home is truly amazing. 
+      People from different countries, cultures and backgrounds. You will definitely learn some new things and you might even make a connection for life! </p>
+    <br>
+    <h2>It Teaches You About Yourself and Allows You to Grow</h2>
+    <img src="https://storage.googleapis.com/fvallimages/uploads/media/images/uploaded_images/1586867373.jpg" style="height:200px;">
+    <p>Travel takes you out of your comfort zone, and you will have to learn to adapt to change and uncertainty. Finding out how you deal with certain situations will teach you a lot about yourself and allow you to change for the better. You will come to understand your strengths and weaknesses and get to test your limits. 
+      You'll also learn about what you like and what you don't. Travel allows you to learn and grow in ways you never would by staying in the same place. It can be a truly life-changing experience and you will develop as a person from it! </p>
+    <br>
+    </div>
+    <h2>Some Final Words on Why Traveling is Good For Your Soul</h2>
+    <div.a>
+    <style>
+      p1 {text-align: left;}
+    </style>
+    <p1>
+      <ul>
+      <li>To me, there is no better feeling than being sat on a bus or a train or a plane, heading towards the unknown. The excitement of discovering a new place and seeing something you’ve never seen before is amazing.</li>
+
+      <li>A new landscape that is completely different to your home, delicious food you never even knew existing and beautiful people that change your way of thinking - there is so much about traveling to love and there really is nothing else like it.</li> 
+      
+      <li>Traveling will bring you closer to who you truly are. I hope this article has inspired you to travel more, as soon as you can. For more inspiration and ideas about where to go and what to do check out my previous blogs: The Ultimate Travel Bucket List and Top 10 Travel Photos From Around The World plus heaps more on The Vacationer! </li>
+      
+      <li>Also have a look at all of our destinations and the amazing tours we offer!</li>
+      </ul> 
+      </p1>
+    <br>
+    </div.a>
+    <div>
+    <style>
+      h2 {text-align: center;}
+      p {text-align: center;}
+      div {text-align: center;}
+    </style>
+    <h2>“Travel far enough, you meet yourself” - David Mitchell. </h2>
+    <br>
+    <br>
+    <p>Copyright 2022 Sonalika-2210030127(CSE-3) All Right Reserved</p>
+  </div>
+</div>
+
+</body>
+</html>
